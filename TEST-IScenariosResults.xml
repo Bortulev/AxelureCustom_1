@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadUIScenariosResults>
+  <item>
+    <scenariosCount>1</scenariosCount>
+    <scenarioName>New Scenario</scenarioName>
+    <top5Dispersion>
+      <Top5Dispersion>
+        <hintText>This graph shows when the 5 fastest and 5 slowest test case executions happened. The clustered values show the time when the issues occurred during the test run. For example, a lot of values at the beginning of the test might mean that you need a longer warm-up time for the server. Ideally, the values should be distributed evenly throughout the test duration.</hintText>
+        <yAxisName>Duration (ms)</yAxisName>
+        <xAxisName>Time</xAxisName>
+        <values1Title>Top 5</values1Title>
+        <values2Title>Bottom 5</values2Title>
+        <title>Execution dispersion</title>
+        <values2>
+          <Point>
+            <X>16:40:36</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:39</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:39</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:39</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:41</X>
+            <Y>4.0</Y>
+          </Point>
+        </values2>
+        <values1>
+          <Point>
+            <X>16:40:36</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:39</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:39</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:39</X>
+            <Y>4.0</Y>
+          </Point>
+          <Point>
+            <X>16:40:41</X>
+            <Y>4.0</Y>
+          </Point>
+        </values1>
+      </Top5Dispersion>
+    </top5Dispersion>
+    <topTestCases>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:36</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:39</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:39</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:39</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:41</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+    </topTestCases>
+    <bottomTestSteps>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:31</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:31</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:31</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:31</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:31</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+    </bottomTestSteps>
+    <loadTargetsContinue>
+      <loadTarget>
+        <maxTime>1082</maxTime>
+        <targetName>TestSuite 1:TestCase 1</targetName>
+        <requestsCount>135</requestsCount>
+        <percentile98>1082.00</percentile98>
+        <medianTime>5</medianTime>
+        <averageTime>45</averageTime>
+        <percentile75>6.00</percentile75>
+        <minTime>4</minTime>
+        <failuresCount>5</failuresCount>
+        <percentile95>15.00</percentile95>
+        <percentile90>9.00</percentile90>
+        <failuresRatio>3</failuresRatio>
+        <standardDeviation>181</standardDeviation>
+      </loadTarget>
+      <loadTarget>
+        <maxTime>24</maxTime>
+        <targetName>TestSuite 2:TestCase 1</targetName>
+        <requestsCount>135</requestsCount>
+        <percentile98>10.00</percentile98>
+        <medianTime>5</medianTime>
+        <averageTime>5</averageTime>
+        <percentile75>6.00</percentile75>
+        <minTime>4</minTime>
+        <failuresCount>0</failuresCount>
+        <percentile95>9.00</percentile95>
+        <percentile90>7.00</percentile90>
+        <failuresRatio>0</failuresRatio>
+        <standardDeviation>2</standardDeviation>
+      </loadTarget>
+    </loadTargetsContinue>
+    <topTestSteps>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:36</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:39</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:39</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:39</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>4</timeTaken>
+        <size>1</size>
+        <startTime>16:40:41</startTime>
+        <testCaseName>TestSuite 1:TestCase 1->REST Request</testCaseName>
+      </executionNotable>
+    </topTestSteps>
+    <graphicalData>
+      <GraphicalData>
+        <pieParam2>Failed test cases</pieParam2>
+        <pieParam1>Passed test cases</pieParam1>
+        <metricsTitle/>
+        <param1Name>Test case runs, including loops</param1Name>
+        <param2Name>Failed test cases</param2Name>
+        <title>Information on target test cases</title>
+        <param3Value>1%</param3Value>
+        <hintText/>
+        <param3Name>Failure ratio</param3Name>
+        <param1Value>270</param1Value>
+        <param2Value>5</param2Value>
+      </GraphicalData>
+      <GraphicalData>
+        <pieParam2>Failed test steps</pieParam2>
+        <pieParam1>Passed test steps</pieParam1>
+        <metricsTitle/>
+        <param1Name>Test step runs, including loops</param1Name>
+        <param2Name>Failed test steps</param2Name>
+        <title>Executed test step(s) summary</title>
+        <param3Value>1%</param3Value>
+        <hintText/>
+        <param3Name>Failure ratio</param3Name>
+        <param1Value>270</param1Value>
+        <param2Value>5</param2Value>
+      </GraphicalData>
+      <GraphicalData>
+        <pieParam2>Minimum</pieParam2>
+        <pieParam1>Maximum</pieParam1>
+        <metricsTitle>ms</metricsTitle>
+        <param1Name>Maximum</param1Name>
+        <param2Name>Minimum</param2Name>
+        <title>Time taken</title>
+        <param3Value>25</param3Value>
+        <hintText>A great difference between time taken (i.e. response time) values may indicate server issues.</hintText>
+        <param3Name>Average</param3Name>
+        <param1Value>1082</param1Value>
+        <param2Value>4</param2Value>
+      </GraphicalData>
+    </graphicalData>
+    <bottomTestCases>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:29</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:29</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:29</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:29</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>1082</timeTaken>
+        <size>1</size>
+        <startTime>16:40:29</startTime>
+        <testCaseName>TestSuite 1:TestCase 1</testCaseName>
+      </executionNotable>
+    </bottomTestCases>
+    <loadTargets>
+      <loadTarget>
+        <maxTime>1082</maxTime>
+        <targetName>TestSuite 1:TestCase 1</targetName>
+        <requestsCount>135</requestsCount>
+        <percentile98>1082.00</percentile98>
+        <medianTime>5</medianTime>
+        <averageTime>45</averageTime>
+        <percentile75>6.00</percentile75>
+        <minTime>4</minTime>
+        <failuresCount>5</failuresCount>
+        <percentile95>15.00</percentile95>
+        <percentile90>9.00</percentile90>
+        <failuresRatio>3</failuresRatio>
+        <standardDeviation>181</standardDeviation>
+      </loadTarget>
+      <loadTarget>
+        <maxTime>24</maxTime>
+        <targetName>TestSuite 2:TestCase 1</targetName>
+        <requestsCount>135</requestsCount>
+        <percentile98>10.00</percentile98>
+        <medianTime>5</medianTime>
+        <averageTime>5</averageTime>
+        <percentile75>6.00</percentile75>
+        <minTime>4</minTime>
+        <failuresCount>0</failuresCount>
+        <percentile95>9.00</percentile95>
+        <percentile90>7.00</percentile90>
+        <failuresRatio>0</failuresRatio>
+        <standardDeviation>2</standardDeviation>
+      </loadTarget>
+    </loadTargets>
+    <testResults>
+      <metric>
+        <icon>dot.gif</icon>
+        <name/>
+        <category>Base Metrics</category>
+        <value/>
+        <valueIcon/>
+      </metric>
+      <metric>
+        <icon>dot.gif</icon>
+        <name>Load profile</name>
+        <category>Scenario overview</category>
+        <value>Fixed</value>
+        <valueIcon>/fixed_load_profile.png</valueIcon>
+      </metric>
+      <metric>
+        <icon>dot.gif</icon>
+        <name>Scenario targets</name>
+        <category>Scenario overview</category>
+        <value>2</value>
+        <valueIcon/>
+      </metric>
+      <metric>
+        <icon>dot.gif</icon>
+        <name>Simulated users</name>
+        <category>Scenario overview</category>
+        <value>5</value>
+        <valueIcon/>
+      </metric>
+    </testResults>
+  </item>
+</LoadUIScenariosResults>
