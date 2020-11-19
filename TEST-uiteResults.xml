@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSuiteResults>
+  <testCase>
+    <reason>The test run was cancelled due to a failed test step.</reason>
+    <timeTaken>2359</timeTaken>
+    <startTime>17:08:04</startTime>
+    <testCaseName>Capital cities</testCaseName>
+    <status>FAIL</status>
+    <testCaseId>13fd4c87-d2d0-4b4f-a7f4-629c290cd19a</testCaseId>
+    <testStepParameters>
+      <parameters>
+        <iconPath>/teststeps.gif</iconPath>
+        <testStepName>DataSource</testStepName>
+      </parameters>
+      <parameters>
+        <iconPath>/rest_request_step.png</iconPath>
+        <testStepName>Geocode search</testStepName>
+      </parameters>
+    </testStepParameters>
+    <failedTestSteps>
+      <error>
+        <testSuiteName>Geocode</testSuiteName>
+        <icon>rest_request_step.png</icon>
+        <detail>Status: FAIL
+Time Taken: 0
+Size: 0
+Timestamp: Thu Nov 19 17:08:04 MSK 2020
+TestStep: Geocode search
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+- missing response / garbage collected -</detail>
+        <testCaseName>Capital cities</testCaseName>
+        <testStepName>Geocode search</testStepName>
+      </error>
+    </failedTestSteps>
+    <testStepResults>
+      <result>
+        <timeTaken>0</timeTaken>
+        <name>DataSource</name>
+        <started>17:08:04.676</started>
+        <message>Step 1 [DataSource] PASS: took 0 ms</message>
+        <order>2</order>
+        <status>PASS</status>
+      </result>
+      <result>
+        <timeTaken>0</timeTaken>
+        <name>Geocode search</name>
+        <started>17:08:04.857</started>
+        <message>Step 2 [Geocode search] FAIL: took 0 ms
+ -> org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect</message>
+        <order>3</order>
+        <status>FAIL</status>
+      </result>
+    </testStepResults>
+  </testCase>
+</testSuiteResults>

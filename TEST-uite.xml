@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSuite>
+  <testCase>
+    <loadTestCount>1</loadTestCount>
+    <label>Capital cities</label>
+    <securityTestCount>0</securityTestCount>
+    <testStepCount>3</testStepCount>
+    <disabled>false</disabled>
+  </testCase>
+</testSuite>
