@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics>
+  <metric>
+    <icon>delay_step.png</icon>
+    <name>Start Time</name>
+    <category>Result Metrics</category>
+    <value>Fri Nov 20 14:21:28 MSK 2020</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>delay_step.png</icon>
+    <name>End Time</name>
+    <category>Result Metrics</category>
+    <value>Fri Nov 20 14:21:30 MSK 2020</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>delay_step.png</icon>
+    <name>Time Taken</name>
+    <category>Result Metrics</category>
+    <value>1955 ms</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/test_suite.png</icon>
+    <name>TestSuite Count</name>
+    <category>Result Metrics</category>
+    <value>2</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/test_suite.png</icon>
+    <name>Failed TestSuite Count</name>
+    <category>Result Metrics</category>
+    <value>1</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/test_case.png</icon>
+    <name>TestCase Count</name>
+    <category>Result Metrics</category>
+    <value>2</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/test_case.png</icon>
+    <name>Failed TestCase Count</name>
+    <category>Result Metrics</category>
+    <value>1</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/teststeps.gif</icon>
+    <name>TestStep Count</name>
+    <category>Result Metrics</category>
+    <value>2</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/teststeps.gif</icon>
+    <name>Failed TestStep Count</name>
+    <category>Result Metrics</category>
+    <value>1</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/assertions.png</icon>
+    <name>Assertion Count</name>
+    <category>Result Metrics</category>
+    <value>4</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>/assertions.png</icon>
+    <name>Failed Assertion Count</name>
+    <category>Result Metrics</category>
+    <value>1</value>
+    <valueIcon/>
+  </metric>
+</metrics>
