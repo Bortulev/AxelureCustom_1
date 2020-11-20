@@ -1,0 +1,15 @@
+<testsuites name="jest tests" tests="18" failures="0" time="18.103">
+  <testsuite name="/dist/cache.test.js" errors="0" failures="0" skipped="0" timestamp="2018-12-23T11:16:25" time="14.348" tests="1">
+    <testcase classname=" correctly deals with cache" name=" correctly deals with cache" time="13.494">
+    </testcase>
+  </testsuite>
+  <testsuite name="/dist/index.test.js" errors="0" failures="0" skipped="0" timestamp="2018-12-23T11:16:25" time="16.507" tests="17">
+    <testcase classname=" formats fixture broken-code.elm" name=" formats fixture broken-code.elm" time="0.902">
+    </testcase>
+    <testcase classname=" formats fixture broken-code.md" name=" formats fixture broken-code.md" time="0.547">
+    </testcase>
+    ...
+    <testcase classname=" formats fixture only-import.md" name=" formats fixture only-import.md" time="0.417">
+    </testcase>
+  </testsuite>
+</testsuites>

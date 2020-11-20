@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite tests="3" failures="0" time="1.910000" name="full/package/name">
+        <properties>
+            <property name="go.version" value="go1.13.7 linux/amd64"></property>
+        </properties>
+        <testcase classname="full/package/name" name="TestA" time="0.130000"></testcase>
+        <testcase classname="full/package/name" name="TestB" time="0.550000"></testcase>
+        <testcase classname="full/package/name" name="TestC" time="1.230000"></testcase>
+    </testsuite>
+    <testsuite tests="3" failures="0" time="1.850000" name="full/package/othername">
+        <properties>
+            <property name="go.version" value="go1.13.7 linux/amd64"></property>
+        </properties>
+        <testcase classname="full/package/othername" name="TestA" time="0.130000"></testcase>
+        <testcase classname="full/package/othername" name="TestB" time="0.400000"></testcase>
+        <testcase classname="full/package/othername" name="TestC" time="1.320000"></testcase>
+    </testsuite>
+</testsuites>

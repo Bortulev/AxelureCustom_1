@@ -1,0 +1,18 @@
+<testsuites name="jest tests" tests="123" failures="0" time="42">
+  <testsuite name="suite 1" errors="0" failures="0" skipped="0" timestamp="2018-12-20T18:58:06" time="6" tests="3">
+    <testcase classname="a" name="a" time="1">
+    </testcase>
+    <testcase classname="b" name="b" time="2">
+    </testcase>
+    <testcase classname="c" name="c" time="3">
+    </testcase>
+  </testsuite>
+  <testsuite name="suite 2" errors="0" failures="0" skipped="0" timestamp="2018-12-20T18:58:12" time="15" tests="3">
+    <testcase classname="x" name="x" time="4">
+    </testcase>
+    <testcase classname="y" name="y" time="5">
+    </testcase>
+    <testcase classname="z" name="z" time="6">
+    </testcase>
+  </testsuite>
+</testsuites>
