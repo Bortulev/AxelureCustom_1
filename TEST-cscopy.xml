@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tstsit" timestamp="2012-12-13T12:12:12" hostname="hoostt" tests="teest" failures="123" errors="123" skipped="123" time="123.45">
+<testsuite>
   <properties>
     <property name="prpr" value="str1234" />
   </properties>
