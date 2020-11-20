@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite>
-  <properties>
-    <property name="prpr" value="str1234" />
-  </properties>
-  <testcase name="prpr" classname="clscls" time="123.45" />
   <system-out>str1234</system-out>
   <system-err>str1234</system-err>
 </testsuite>
