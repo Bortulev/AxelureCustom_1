@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testsuite name="tstsit" timestamp="2012-12-13T12:12:12" hostname="hoostt" tests="teest" failures="123" errors="123" skipped="123" time="123.45">
+<testsuite name="MTestSuiteNAme" timestamp="2020-10-01T00:00:01" hostname="hoostt://nname" tests="teests a lot" failures="123" errors="456" skipped="789" time="99.9">
   <properties>
-    <property name="prpr" value="str1234" />
+    <property name="property1" value="valueStr1" />
+    <property name="property2" value="valueStr2" />
   </properties>
-  <testcase name="prpr" classname="clscls" time="123.45" />
-  <system-out>str1234</system-out>
-  <system-err>str1234</system-err>
+  <testcase name="MTestCase1" classname="clscls.dldl" time="88.8" />
+  <system-out>str1234out</system-out>
+  <system-err>str5678err</system-err>
 </testsuite>
